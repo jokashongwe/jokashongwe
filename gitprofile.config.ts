@@ -2,14 +2,14 @@
 
 const CONFIG = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (This is the only required config)
+    username: 'jokashongwe', // Your GitHub org/user name. (This is the only required config)
   },
   /**
    * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
    * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
    * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
    */
-  base: '/gitprofile/',
+  base: '/jokashongwe/',
   projects: {
     github: {
       display: true, // Display GitHub projects?
@@ -29,37 +29,37 @@ const CONFIG = {
       },
     },
     external: {
-      header: 'My Projects',
+      header: 'Mes Projets',
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'TinoBusiness Hotel',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'Système de réservation en ligne',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://www.tinobusiness.net/assets/logo-ce3badf3.png',
+          link: 'https://tinobusiness.net',
         },
         {
-          title: 'Project Name',
+          title: 'GoodVibes Digital',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'Système de Gestion évènementiels',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://good-vibes.digital/public/images/logo.svg',
+          link: 'https://good-vibes.digital',
         },
       ],
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
+    title: 'Portfolio of Jonathan Kashongwe',
     description: '',
     imageURL: '',
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'jonathan-kashongwe-m',
+    twitter: 'jokashongwe',
+    mastodon: 'jokashongwe@mastodon.social',
     researchGate: '',
     facebook: '',
     instagram: '',
@@ -69,14 +69,14 @@ const CONFIG = {
     udemy: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: 'jokashongwe',
+    dev: 'jokashongwe',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
+    website: 'https://jokashongwe.com',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'jokashongwe@gmail.com',
   },
   resume: {
     fileUrl:
@@ -84,13 +84,13 @@ const CONFIG = {
   },
   skills: [
     'PHP',
-    'Laravel',
+    'Symfony',
     'JavaScript',
     'React.js',
     'Node.js',
-    'Nest.js',
+    'Next.js',
     'MySQL',
-    'PostgreSQL',
+    'Oracle',
     'Git',
     'Docker',
     'PHPUnit',
@@ -100,41 +100,35 @@ const CONFIG = {
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'TechFactory SAS',
+      position: 'Founder',
+      from: 'September 2023',
       to: 'Present',
       companyLink: 'https://example.com',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: '243 Technologies',
+      position: 'Fullstack Developer',
+      from: 'December 2022',
+      to: 'Spetembre 2023',
+      companyLink: 'https://243technologies.com',
     },
   ],
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
+      name: 'Google Africa Developer',
+      body: '6 Months Training with Andela',
+      year: 'May 2020',
       link: 'https://example.com',
     },
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
-    },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
-    },
+      institution: 'Université de Kinshasa',
+      degree: 'Licence en Sciences Informatiques',
+      from: '2014',
+      to: '2020',
+    }
   ],
   publications: [
     {
@@ -159,7 +153,7 @@ const CONFIG = {
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    username: 'jokashongwe', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
@@ -234,11 +228,7 @@ const CONFIG = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+  footer: `Jonathan Kashongwe 2024`,
 
   enablePWA: true,
 };
