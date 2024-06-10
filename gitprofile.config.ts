@@ -48,12 +48,20 @@ const CONFIG = {
             'https://good-vibes.digital/public/images/logo.svg',
           link: 'https://good-vibes.digital',
         },
+        {
+          title: 'SMBStores',
+          description:
+            'E-Commerce Website build using the NEXT JS, Express and MongoDB. ',
+          imageUrl:
+            'https://www.smbstores.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo-white.930b9577.png&w=256&q=75',
+          link: 'https://www.smbstores.com',
+        }
       ],
     },
   },
   seo: {
     title: 'Portfolio of Jonathan Kashongwe',
-    description: '',
+    description: 'Jonathan Kashongwe Resume',
     imageURL: '',
   },
   social: {
@@ -180,39 +188,7 @@ const CONFIG = {
 
     // Available themes. To remove any theme, exclude from here.
     themes: [
-      'light',
-      'dark',
-      'cupcake',
-      'bumblebee',
-      'emerald',
-      'corporate',
-      'synthwave',
-      'retro',
-      'cyberpunk',
-      'valentine',
-      'halloween',
-      'garden',
-      'forest',
-      'aqua',
-      'lofi',
-      'pastel',
-      'fantasy',
-      'wireframe',
-      'black',
-      'luxury',
-      'dracula',
-      'cmyk',
-      'autumn',
-      'business',
-      'acid',
-      'lemonade',
-      'night',
-      'coffee',
-      'winter',
-      'dim',
-      'nord',
-      'sunset',
-      'procyon',
+      'halloween'
     ],
 
     // Custom theme, applied to `procyon` theme
