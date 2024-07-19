@@ -1,8 +1,8 @@
 # Jonathan Kashongwe
-Fullstack Developer (mostly Backend 😃😃 )
-Teaching Lecturer at University of Kinshasa (Software Design and AI)
-Founder of Afrimetrik Softwares
-Member of A.T.B.E ASBL
+Fullstack Developer (mostly Backend 😃😃 )\
+Teaching Lecturer at University of Kinshasa (Software Design and AI)\
+Founder of Afrimetrik Softwares\
+Member of A.T.B.E ASBL\
 
 
 ## Tech Stack:
